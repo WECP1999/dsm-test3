@@ -2,4 +2,41 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Primary - Azul marino -->
+    <color name="primary">#1A237E</color>
+    <color name="primary_dark">#0D1757</color>
+    <color name="primary_light">#534BAE</color>
+
+    <!-- Accent - Naranja -->
+    <color name="accent">#FF6F00</color>
+    <color name="accent_light">#FFA000</color>
+
+    <!-- Backgrounds -->
+    <color name="background">#F5F6FA</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="card_background">#FFFFFF</color>
+
+    <!-- Text -->
+    <color name="text_primary">#1A1A2E</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="text_on_primary">#FFFFFF</color>
+
+    <!-- Badge colors by type -->
+    <color name="badge_libro">#1565C0</color>
+    <color name="badge_video">#C62828</color>
+    <color name="badge_articulo">#2E7D32</color>
+    <color name="badge_tutorial">#6A1B9A</color>
+    <color name="badge_default">#37474F</color>
+
+    <!-- Rating star -->
+    <color name="star_filled">#FFB300</color>
+    <color name="star_empty">#E0E0E0</color>
+
+    <!-- Divider -->
+    <color name="divider">#E8EAED</color>
+
+    <!-- Gradient splash -->
+    <color name="splash_start">#1A237E</color>
+    <color name="splash_end">#283593</color>
 </resources>

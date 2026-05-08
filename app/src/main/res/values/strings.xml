@@ -1,3 +1,90 @@
 <resources>
-    <string name="app_name">dsm104-test3</string>
+    <string name="app_name">AprendeApp</string>
+    <string name="welcome_message">¡Bienvenido a AprendeApp!</string>
+    <string name="slogan">Tu plataforma de recursos educativos</string>
+
+    <!-- Auth -->
+    <string name="login_title">Iniciar Sesión</string>
+    <string name="register_title">Crear Cuenta</string>
+    <string name="email_hint">Correo electrónico</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="username_hint">Nombre de usuario</string>
+    <string name="role_hint">Rol</string>
+    <string name="btn_login">Iniciar Sesión</string>
+    <string name="btn_register">Registrarse</string>
+    <string name="btn_logout">Cerrar Sesión</string>
+    <string name="no_account">¿No tienes cuenta? Regístrate</string>
+    <string name="have_account">¿Ya tienes cuenta? Inicia sesión</string>
+    <string name="role_estudiante">Estudiante</string>
+    <string name="role_docente">Docente</string>
+
+    <!-- Password validation -->
+    <string name="error_password_length">Mínimo 12 caracteres</string>
+    <string name="error_password_uppercase">Debe incluir al menos una mayúscula</string>
+    <string name="error_password_lowercase">Debe incluir al menos una minúscula</string>
+    <string name="error_password_number">Debe incluir al menos un número</string>
+    <string name="error_password_special">Debe incluir al menos un carácter especial (!@#$%^&amp;*)</string>
+    <string name="error_email_required">El correo es requerido</string>
+    <string name="error_username_required">El nombre de usuario es requerido</string>
+    <string name="error_fields_required">Complete todos los campos</string>
+    <string name="error_email_not_found">Usuario no encontrado</string>
+    <string name="error_wrong_password">Contraseña incorrecta</string>
+    <string name="error_email_exists">El correo ya está registrado</string>
+
+    <!-- Main -->
+    <string name="recursos_title">Recursos de Aprendizaje</string>
+    <string name="search_hint">Buscar por ID, título o tipo…</string>
+    <string name="filter_all">Todos</string>
+    <string name="filter_libro">Libro</string>
+    <string name="filter_video">Video</string>
+    <string name="filter_articulo">Artículo</string>
+    <string name="filter_tutorial">Tutorial</string>
+    <string name="menu_gestion">Gestión</string>
+    <string name="menu_favoritos">Favoritos</string>
+
+    <!-- Resource detail -->
+    <string name="tipo_label">Tipo:</string>
+    <string name="enlace_label">Enlace:</string>
+    <string name="rating_label">Calificación promedio:</string>
+    <string name="btn_favorito">Guardar en favoritos</string>
+    <string name="btn_quitar_favorito">Quitar de favoritos</string>
+    <string name="rating_hint">Califica este recurso</string>
+    <string name="btn_open_link">Abrir enlace</string>
+
+    <!-- Gestión -->
+    <string name="gestion_title">Gestión de Recursos</string>
+    <string name="btn_add_recurso">Agregar Recurso</string>
+    <string name="btn_edit">Editar</string>
+    <string name="btn_delete">Eliminar</string>
+    <string name="confirm_delete_title">Eliminar recurso</string>
+    <string name="confirm_delete_message">¿Estás seguro de que deseas eliminar este recurso?</string>
+    <string name="btn_confirm">Confirmar</string>
+    <string name="btn_cancel">Cancelar</string>
+
+    <!-- Add/Edit form -->
+    <string name="add_recurso_title">Agregar Recurso</string>
+    <string name="edit_recurso_title">Editar Recurso</string>
+    <string name="titulo_hint">Título del recurso</string>
+    <string name="descripcion_hint">Descripción</string>
+    <string name="tipo_input_hint">Tipo (libro, video, artículo, tutorial)</string>
+    <string name="enlace_input_hint">URL del recurso</string>
+    <string name="imagen_hint">URL de imagen</string>
+    <string name="btn_guardar">Guardar</string>
+
+    <!-- Favoritos -->
+    <string name="favoritos_title">Mis Favoritos</string>
+    <string name="no_favoritos">No tienes recursos favoritos aún</string>
+
+    <!-- Feedback -->
+    <string name="loading">Cargando…</string>
+    <string name="success_register">Cuenta creada exitosamente</string>
+    <string name="success_login">¡Bienvenido!</string>
+    <string name="success_saved">Guardado correctamente</string>
+    <string name="success_deleted">Recurso eliminado</string>
+    <string name="success_favorito">Agregado a favoritos</string>
+    <string name="success_quitar_favorito">Quitado de favoritos</string>
+    <string name="success_rating">¡Gracias por calificar!</string>
+    <string name="error_generic">Ocurrió un error. Intenta de nuevo</string>
+    <string name="error_network">Sin conexión a internet</string>
+    <string name="no_recursos">No se encontraron recursos</string>
 </resources>
